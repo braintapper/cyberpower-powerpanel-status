@@ -4,9 +4,14 @@ Get the status from a Cyberpower USB connected UPS. Requires Cyberpower Powerpan
 
 Tested only on Windows.
 
+Note that this lib is not actively maintained as it does everything I need it to do in its current state. If you need additional functionality, I suggest you fork it.
+
+
 # Overview
 
-If you want to log the stats of your USB connected Cyberpower on Windows, it's not that straightforward. If you install the Cyberpower Powerpanel Business (instead of Personal) the software is a web app server that uses a REST API. 
+If you want to log the stats of your USB connected Cyberpower on Windows, it's not that straightforward if you have their PowerPanel software installed. 
+
+If you install the Cyberpower Powerpanel Business (instead of Personal) the software is a web app server that uses a REST API.
 
 This little lib logs into the Powerpanel Business web server, makes a request for the current status and returns a JSON object.
 
