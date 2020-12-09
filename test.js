@@ -2,7 +2,7 @@ var PowerPanelStatus, ecb, options, scb, status;
 
 PowerPanelStatus = require("./index.js");
 
-// If you have PowerPanel Business 4.x installed, these would be the default 
+// If you have PowerPanel Business 4.x installed, test would be the default 
 // connection URL and credentials.
 options = {
   base_url: "http://localhost:3052",
