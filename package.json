@@ -1,0 +1,19 @@
+{
+    "name": "cyberpower-powerpanel-status",
+    "version": "1.0.0",
+    "description": "NPM to get the status from a Cyberpower USB connected UPS. Requires Cyberpower Powerpanel Business 4.x or higher.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "coffeescript": "^2.4.1",
+        "gulp": "^4.0.2",
+        "gulp-coffee": "^3.0.3"
+    },
+    "dependencies": {
+        "request": "^2.88.2"
+    }
+}
